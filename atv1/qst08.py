@@ -6,3 +6,5 @@ peso = float(input('Informe o seu peso em KG: '))
 alt = float(input('Informe o sua altura em m: '))
 
 imc = peso/(alt**2)
+
+print(f'IMC: {imc:.2f}')
